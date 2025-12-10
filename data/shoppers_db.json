@@ -1,0 +1,4354 @@
+[
+    {
+        "id": "S0001",
+        "name": "Léa 001.",
+        "bio": "Expert(e) en mode, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.07,
+            "experience_years": 11,
+            "clients_count": 735,
+            "success_rate": 22.2
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0002",
+        "name": "Julien 002.",
+        "bio": "Expert(e) en mode, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.97,
+            "experience_years": 20,
+            "clients_count": 286,
+            "success_rate": 15.8
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0003",
+        "name": "Emma 003.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.59,
+            "experience_years": 6,
+            "clients_count": 1102,
+            "success_rate": 12.9
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0004",
+        "name": "Marine 004.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 5.0,
+            "experience_years": 20,
+            "clients_count": 23,
+            "success_rate": 12.4
+        },
+        "specialties": [
+            "beauté",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0005",
+        "name": "Sarah 005.",
+        "bio": "Spécialiste maison avec 9 ans d'expérience.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.76,
+            "experience_years": 9,
+            "clients_count": 1408,
+            "success_rate": 12.6
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0006",
+        "name": "Léa 006.",
+        "bio": "Expert(e) en mode, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.69,
+            "experience_years": 9,
+            "clients_count": 907,
+            "success_rate": 15.9
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0007",
+        "name": "Marine 007.",
+        "bio": "Expert(e) en beauté, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.75,
+            "experience_years": 8,
+            "clients_count": 435,
+            "success_rate": 11.1
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0008",
+        "name": "Thomas 008.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires luxe.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.44,
+            "experience_years": 13,
+            "clients_count": 1901,
+            "success_rate": 14.3
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0009",
+        "name": "Chloé 009.",
+        "bio": "Spécialiste deco avec 15 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.03,
+            "experience_years": 15,
+            "clients_count": 1096,
+            "success_rate": 21.1
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0010",
+        "name": "Emma 010.",
+        "bio": "Spécialiste sport avec 14 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.06,
+            "experience_years": 14,
+            "clients_count": 30,
+            "success_rate": 18.1
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0011",
+        "name": "Marine 011.",
+        "bio": "Expert(e) en luxe, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.65,
+            "experience_years": 13,
+            "clients_count": 1535,
+            "success_rate": 16.2
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0012",
+        "name": "Emma 012.",
+        "bio": "Expert(e) en deco, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.83,
+            "experience_years": 13,
+            "clients_count": 273,
+            "success_rate": 19.3
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0013",
+        "name": "Sarah 013.",
+        "bio": "Expert(e) en luxe, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.02,
+            "experience_years": 5,
+            "clients_count": 267,
+            "success_rate": 14.4
+        },
+        "specialties": [
+            "luxe",
+            "montres"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0014",
+        "name": "Marine 014.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires maison.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.38,
+            "experience_years": 2,
+            "clients_count": 395,
+            "success_rate": 14.4
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0015",
+        "name": "Thomas 015.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.84,
+            "experience_years": 3,
+            "clients_count": 1347,
+            "success_rate": 13.3
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0016",
+        "name": "Hugo 016.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires tech.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.4,
+            "experience_years": 15,
+            "clients_count": 947,
+            "success_rate": 19.8
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0017",
+        "name": "Hugo 017.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 3.8,
+            "experience_years": 4,
+            "clients_count": 1700,
+            "success_rate": 18.3
+        },
+        "specialties": [
+            "beauté",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0018",
+        "name": "Thomas 018.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires luxe.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.09,
+            "experience_years": 16,
+            "clients_count": 96,
+            "success_rate": 13.7
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0019",
+        "name": "Marine 019.",
+        "bio": "Expert(e) en deco, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.25,
+            "experience_years": 16,
+            "clients_count": 1301,
+            "success_rate": 8.1
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0020",
+        "name": "Hugo 020.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.99,
+            "experience_years": 16,
+            "clients_count": 1629,
+            "success_rate": 14.6
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0021",
+        "name": "Emma 021.",
+        "bio": "Spécialiste maison avec 11 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.01,
+            "experience_years": 11,
+            "clients_count": 220,
+            "success_rate": 17.8
+        },
+        "specialties": [
+            "maison",
+            "lifestyle"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0022",
+        "name": "Sarah 022.",
+        "bio": "Spécialiste maison avec 7 ans d'expérience.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 3.45,
+            "experience_years": 7,
+            "clients_count": 317,
+            "success_rate": 14.4
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0023",
+        "name": "Hugo 023.",
+        "bio": "Expert(e) en beauté, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.69,
+            "experience_years": 1,
+            "clients_count": 1101,
+            "success_rate": 16.7
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0024",
+        "name": "Sarah 024.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.24,
+            "experience_years": 15,
+            "clients_count": 1191,
+            "success_rate": 16.8
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0025",
+        "name": "Sarah 025.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.19,
+            "experience_years": 6,
+            "clients_count": 125,
+            "success_rate": 9.8
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0026",
+        "name": "Thomas 026.",
+        "bio": "Expert(e) en maison, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.8,
+            "experience_years": 1,
+            "clients_count": 88,
+            "success_rate": 17.2
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0027",
+        "name": "Lucas 027.",
+        "bio": "Expert(e) en maison, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.55,
+            "experience_years": 2,
+            "clients_count": 1808,
+            "success_rate": 13.8
+        },
+        "specialties": [
+            "maison",
+            "deco"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0028",
+        "name": "Thomas 028.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.01,
+            "experience_years": 13,
+            "clients_count": 610,
+            "success_rate": 19.8
+        },
+        "specialties": [
+            "beauté",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0029",
+        "name": "Emma 029.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires maison.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.76,
+            "experience_years": 10,
+            "clients_count": 914,
+            "success_rate": 13.8
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0030",
+        "name": "Thomas 030.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires tech.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.56,
+            "experience_years": 10,
+            "clients_count": 899,
+            "success_rate": 14.3
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0031",
+        "name": "Lucas 031.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.33,
+            "experience_years": 13,
+            "clients_count": 1046,
+            "success_rate": 19.4
+        },
+        "specialties": [
+            "beauté",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0032",
+        "name": "Julien 032.",
+        "bio": "Passionné(e) par le style tech, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.05,
+            "experience_years": 4,
+            "clients_count": 1590,
+            "success_rate": 14.6
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0033",
+        "name": "Sarah 033.",
+        "bio": "Spécialiste sport avec 9 ans d'expérience.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.34,
+            "experience_years": 9,
+            "clients_count": 1469,
+            "success_rate": 18.0
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0034",
+        "name": "Emma 034.",
+        "bio": "Spécialiste maison avec 20 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.03,
+            "experience_years": 20,
+            "clients_count": 554,
+            "success_rate": 14.1
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0035",
+        "name": "Lucas 035.",
+        "bio": "Spécialiste accessoires avec 18 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.22,
+            "experience_years": 18,
+            "clients_count": 1596,
+            "success_rate": 7.3
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0036",
+        "name": "Sarah 036.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.72,
+            "experience_years": 18,
+            "clients_count": 916,
+            "success_rate": 21.1
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "voyage"
+        ],
+        "main_category": "voyage"
+    },
+    {
+        "id": "S0037",
+        "name": "Lucas 037.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.83,
+            "experience_years": 16,
+            "clients_count": 1550,
+            "success_rate": 9.9
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0038",
+        "name": "Thomas 038.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.51,
+            "experience_years": 20,
+            "clients_count": 448,
+            "success_rate": 18.7
+        },
+        "specialties": [
+            "beauté",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0039",
+        "name": "Léa 039.",
+        "bio": "Spécialiste tech avec 5 ans d'expérience.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.43,
+            "experience_years": 5,
+            "clients_count": 1153,
+            "success_rate": 11.0
+        },
+        "specialties": [
+            "beauté",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0040",
+        "name": "Sarah 040.",
+        "bio": "Expert(e) en maison, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.01,
+            "experience_years": 10,
+            "clients_count": 520,
+            "success_rate": 16.5
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0041",
+        "name": "Hugo 041.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.35,
+            "experience_years": 3,
+            "clients_count": 1751,
+            "success_rate": 10.1
+        },
+        "specialties": [
+            "mode",
+            "accessoires"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0042",
+        "name": "Hugo 042.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.15,
+            "experience_years": 16,
+            "clients_count": 1000,
+            "success_rate": 15.1
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0043",
+        "name": "Thomas 043.",
+        "bio": "Spécialiste mode avec 18 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.57,
+            "experience_years": 18,
+            "clients_count": 738,
+            "success_rate": 10.0
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0044",
+        "name": "Thomas 044.",
+        "bio": "Expert(e) en sport, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.86,
+            "experience_years": 14,
+            "clients_count": 1057,
+            "success_rate": 18.0
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0045",
+        "name": "Marine 045.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.12,
+            "experience_years": 16,
+            "clients_count": 497,
+            "success_rate": 26.0
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0046",
+        "name": "Sarah 046.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.02,
+            "experience_years": 9,
+            "clients_count": 755,
+            "success_rate": 11.3
+        },
+        "specialties": [
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0047",
+        "name": "Chloé 047.",
+        "bio": "Expert(e) en enfants, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.39,
+            "experience_years": 11,
+            "clients_count": 778,
+            "success_rate": 15.5
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0048",
+        "name": "Chloé 048.",
+        "bio": "Expert(e) en beauté, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.17,
+            "experience_years": 7,
+            "clients_count": 1421,
+            "success_rate": 12.9
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0049",
+        "name": "Lucas 049.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires styling.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.66,
+            "experience_years": 14,
+            "clients_count": 713,
+            "success_rate": 14.9
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0050",
+        "name": "Thomas 050.",
+        "bio": "Passionné(e) par le style maison, je crée des dressings durables.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.55,
+            "experience_years": 9,
+            "clients_count": 1344,
+            "success_rate": 13.1
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0051",
+        "name": "Thomas 051.",
+        "bio": "Spécialiste luxe avec 17 ans d'expérience.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.58,
+            "experience_years": 17,
+            "clients_count": 1757,
+            "success_rate": 17.0
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0052",
+        "name": "Sarah 052.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.41,
+            "experience_years": 13,
+            "clients_count": 1307,
+            "success_rate": 9.6
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0053",
+        "name": "Sarah 053.",
+        "bio": "Passionné(e) par le style tech, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.35,
+            "experience_years": 16,
+            "clients_count": 1263,
+            "success_rate": 16.0
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "voyage"
+        ],
+        "main_category": "voyage"
+    },
+    {
+        "id": "S0054",
+        "name": "Hugo 054.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.4,
+            "experience_years": 6,
+            "clients_count": 887,
+            "success_rate": 11.6
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0055",
+        "name": "Chloé 055.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires maison.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.81,
+            "experience_years": 10,
+            "clients_count": 264,
+            "success_rate": 13.1
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0056",
+        "name": "Emma 056.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.18,
+            "experience_years": 3,
+            "clients_count": 807,
+            "success_rate": 13.9
+        },
+        "specialties": [
+            "beauté",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0057",
+        "name": "Sarah 057.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.55,
+            "experience_years": 19,
+            "clients_count": 1728,
+            "success_rate": 17.2
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0058",
+        "name": "Thomas 058.",
+        "bio": "Expert(e) en accessoires, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.18,
+            "experience_years": 16,
+            "clients_count": 1661,
+            "success_rate": 16.7
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0059",
+        "name": "Hugo 059.",
+        "bio": "Passionné(e) par le style styling, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.78,
+            "experience_years": 12,
+            "clients_count": 1498,
+            "success_rate": 14.7
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0060",
+        "name": "Marine 060.",
+        "bio": "Spécialiste maison avec 10 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.13,
+            "experience_years": 10,
+            "clients_count": 310,
+            "success_rate": 17.9
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0061",
+        "name": "Lucas 061.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires luxe.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.03,
+            "experience_years": 19,
+            "clients_count": 642,
+            "success_rate": 16.2
+        },
+        "specialties": [
+            "luxe",
+            "montres"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0062",
+        "name": "Julien 062.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.55,
+            "experience_years": 18,
+            "clients_count": 1696,
+            "success_rate": 17.5
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0063",
+        "name": "Emma 063.",
+        "bio": "Spécialiste mode avec 19 ans d'expérience.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.51,
+            "experience_years": 19,
+            "clients_count": 1494,
+            "success_rate": 13.9
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0064",
+        "name": "Chloé 064.",
+        "bio": "Expert(e) en gaming, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.47,
+            "experience_years": 17,
+            "clients_count": 862,
+            "success_rate": 24.3
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0065",
+        "name": "Emma 065.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.47,
+            "experience_years": 16,
+            "clients_count": 1402,
+            "success_rate": 13.9
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0066",
+        "name": "Sarah 066.",
+        "bio": "Passionné(e) par le style tech, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.22,
+            "experience_years": 18,
+            "clients_count": 1277,
+            "success_rate": 13.4
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0067",
+        "name": "Lucas 067.",
+        "bio": "Spécialiste accessoires avec 2 ans d'expérience.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.93,
+            "experience_years": 2,
+            "clients_count": 1936,
+            "success_rate": 9.8
+        },
+        "specialties": [
+            "beauté",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0068",
+        "name": "Emma 068.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires styling.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.79,
+            "experience_years": 19,
+            "clients_count": 847,
+            "success_rate": 8.4
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0069",
+        "name": "Lucas 069.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.53,
+            "experience_years": 18,
+            "clients_count": 1948,
+            "success_rate": 18.0
+        },
+        "specialties": [
+            "mode",
+            "sport"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0070",
+        "name": "Lucas 070.",
+        "bio": "Expert(e) en mode, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.92,
+            "experience_years": 3,
+            "clients_count": 746,
+            "success_rate": 13.7
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0071",
+        "name": "Thomas 071.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.15,
+            "experience_years": 5,
+            "clients_count": 1838,
+            "success_rate": 7.9
+        },
+        "specialties": [
+            "mode",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0072",
+        "name": "Chloé 072.",
+        "bio": "Expert(e) en maison, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.1,
+            "experience_years": 15,
+            "clients_count": 1634,
+            "success_rate": 15.5
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0073",
+        "name": "Julien 073.",
+        "bio": "Spécialiste deco avec 14 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.01,
+            "experience_years": 14,
+            "clients_count": 472,
+            "success_rate": 15.2
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0074",
+        "name": "Chloé 074.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires luxe.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.63,
+            "experience_years": 13,
+            "clients_count": 1797,
+            "success_rate": 17.2
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0075",
+        "name": "Julien 075.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.45,
+            "experience_years": 8,
+            "clients_count": 1449,
+            "success_rate": 12.3
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0076",
+        "name": "Sarah 076.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.22,
+            "experience_years": 5,
+            "clients_count": 382,
+            "success_rate": 12.3
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0077",
+        "name": "Hugo 077.",
+        "bio": "Expert(e) en gaming, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 3.32,
+            "experience_years": 10,
+            "clients_count": 494,
+            "success_rate": 11.3
+        },
+        "specialties": [
+            "beauté",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0078",
+        "name": "Marine 078.",
+        "bio": "Spécialiste enfants avec 16 ans d'expérience.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.24,
+            "experience_years": 16,
+            "clients_count": 853,
+            "success_rate": 13.3
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0079",
+        "name": "Chloé 079.",
+        "bio": "Expert(e) en sport, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.18,
+            "experience_years": 19,
+            "clients_count": 684,
+            "success_rate": 12.2
+        },
+        "specialties": [
+            "beauté",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0080",
+        "name": "Hugo 080.",
+        "bio": "Expert(e) en gaming, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.91,
+            "experience_years": 20,
+            "clients_count": 40,
+            "success_rate": 17.6
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0081",
+        "name": "Thomas 081.",
+        "bio": "Expert(e) en accessoires, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.96,
+            "experience_years": 3,
+            "clients_count": 123,
+            "success_rate": 15.6
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0082",
+        "name": "Thomas 082.",
+        "bio": "Passionné(e) par le style styling, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.92,
+            "experience_years": 6,
+            "clients_count": 908,
+            "success_rate": 9.2
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0083",
+        "name": "Thomas 083.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.09,
+            "experience_years": 1,
+            "clients_count": 830,
+            "success_rate": 13.2
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0084",
+        "name": "Emma 084.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.13,
+            "experience_years": 7,
+            "clients_count": 59,
+            "success_rate": 18.1
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0085",
+        "name": "Thomas 085.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.55,
+            "experience_years": 14,
+            "clients_count": 207,
+            "success_rate": 16.3
+        },
+        "specialties": [
+            "luxe",
+            "montres"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0086",
+        "name": "Marine 086.",
+        "bio": "Spécialiste sport avec 8 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.61,
+            "experience_years": 8,
+            "clients_count": 892,
+            "success_rate": 11.8
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0087",
+        "name": "Thomas 087.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.69,
+            "experience_years": 16,
+            "clients_count": 1506,
+            "success_rate": 18.6
+        },
+        "specialties": [
+            "beauté",
+            "parfum"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0088",
+        "name": "Lucas 088.",
+        "bio": "Spécialiste maison avec 16 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.0,
+            "experience_years": 16,
+            "clients_count": 1680,
+            "success_rate": 9.1
+        },
+        "specialties": [
+            "maison",
+            "lifestyle"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0089",
+        "name": "Julien 089.",
+        "bio": "Expert(e) en sport, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.87,
+            "experience_years": 12,
+            "clients_count": 1847,
+            "success_rate": 11.8
+        },
+        "specialties": [
+            "beauté",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0090",
+        "name": "Thomas 090.",
+        "bio": "Spécialiste gaming avec 1 ans d'expérience.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.17,
+            "experience_years": 1,
+            "clients_count": 1007,
+            "success_rate": 12.2
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0091",
+        "name": "Marine 091.",
+        "bio": "Passionné(e) par le style tech, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.27,
+            "experience_years": 3,
+            "clients_count": 776,
+            "success_rate": 8.5
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0092",
+        "name": "Julien 092.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.65,
+            "experience_years": 1,
+            "clients_count": 1478,
+            "success_rate": 13.7
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0093",
+        "name": "Thomas 093.",
+        "bio": "Passionné(e) par le style styling, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.32,
+            "experience_years": 18,
+            "clients_count": 468,
+            "success_rate": 9.6
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0094",
+        "name": "Chloé 094.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.15,
+            "experience_years": 10,
+            "clients_count": 818,
+            "success_rate": 11.7
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0095",
+        "name": "Thomas 095.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.68,
+            "experience_years": 5,
+            "clients_count": 1793,
+            "success_rate": 18.4
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0096",
+        "name": "Chloé 096.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.06,
+            "experience_years": 13,
+            "clients_count": 1682,
+            "success_rate": 19.4
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0097",
+        "name": "Emma 097.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.86,
+            "experience_years": 8,
+            "clients_count": 1052,
+            "success_rate": 13.5
+        },
+        "specialties": [
+            "mode",
+            "sport"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0098",
+        "name": "Lucas 098.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.68,
+            "experience_years": 18,
+            "clients_count": 1238,
+            "success_rate": 14.0
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "voyage"
+        ],
+        "main_category": "voyage"
+    },
+    {
+        "id": "S0099",
+        "name": "Léa 099.",
+        "bio": "Expert(e) en accessoires, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.81,
+            "experience_years": 6,
+            "clients_count": 1879,
+            "success_rate": 13.0
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0100",
+        "name": "Emma 100.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires styling.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.72,
+            "experience_years": 10,
+            "clients_count": 63,
+            "success_rate": 11.4
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0101",
+        "name": "Sarah 101.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires luxe.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.5,
+            "experience_years": 12,
+            "clients_count": 271,
+            "success_rate": 11.8
+        },
+        "specialties": [
+            "luxe",
+            "montres"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0102",
+        "name": "Emma 102.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires maison.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.99,
+            "experience_years": 20,
+            "clients_count": 1971,
+            "success_rate": 17.0
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0103",
+        "name": "Lucas 103.",
+        "bio": "Expert(e) en luxe, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.49,
+            "experience_years": 12,
+            "clients_count": 1475,
+            "success_rate": 16.7
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0104",
+        "name": "Sarah 104.",
+        "bio": "Spécialiste enfants avec 7 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.07,
+            "experience_years": 7,
+            "clients_count": 309,
+            "success_rate": 13.1
+        },
+        "specialties": [
+            "mode",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0105",
+        "name": "Chloé 105.",
+        "bio": "Spécialiste tech avec 12 ans d'expérience.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.66,
+            "experience_years": 12,
+            "clients_count": 1509,
+            "success_rate": 16.0
+        },
+        "specialties": [
+            "beauté",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0106",
+        "name": "Julien 106.",
+        "bio": "Passionné(e) par le style maison, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.18,
+            "experience_years": 14,
+            "clients_count": 72,
+            "success_rate": 19.0
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0107",
+        "name": "Sarah 107.",
+        "bio": "Spécialiste enfants avec 9 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.08,
+            "experience_years": 9,
+            "clients_count": 763,
+            "success_rate": 7.9
+        },
+        "specialties": [
+            "beauté",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0108",
+        "name": "Thomas 108.",
+        "bio": "Spécialiste gaming avec 8 ans d'expérience.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.8,
+            "experience_years": 8,
+            "clients_count": 1451,
+            "success_rate": 13.6
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0109",
+        "name": "Lucas 109.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.29,
+            "experience_years": 10,
+            "clients_count": 1393,
+            "success_rate": 16.8
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0110",
+        "name": "Julien 110.",
+        "bio": "Expert(e) en luxe, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.09,
+            "experience_years": 12,
+            "clients_count": 45,
+            "success_rate": 14.6
+        },
+        "specialties": [
+            "luxe",
+            "montres"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0111",
+        "name": "Julien 111.",
+        "bio": "Spécialiste mode avec 10 ans d'expérience.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.99,
+            "experience_years": 10,
+            "clients_count": 876,
+            "success_rate": 13.3
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0112",
+        "name": "Hugo 112.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires maison.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.29,
+            "experience_years": 7,
+            "clients_count": 1750,
+            "success_rate": 7.9
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0113",
+        "name": "Léa 113.",
+        "bio": "Spécialiste tech avec 15 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.4,
+            "experience_years": 15,
+            "clients_count": 696,
+            "success_rate": 15.5
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0114",
+        "name": "Léa 114.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.5,
+            "experience_years": 11,
+            "clients_count": 1781,
+            "success_rate": 19.4
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0115",
+        "name": "Emma 115.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.1,
+            "experience_years": 4,
+            "clients_count": 1876,
+            "success_rate": 13.3
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0116",
+        "name": "Marine 116.",
+        "bio": "Expert(e) en sport, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.33,
+            "experience_years": 3,
+            "clients_count": 1478,
+            "success_rate": 12.8
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0117",
+        "name": "Emma 117.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 3.17,
+            "experience_years": 6,
+            "clients_count": 1809,
+            "success_rate": 17.6
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0118",
+        "name": "Emma 118.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires maison.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.38,
+            "experience_years": 14,
+            "clients_count": 66,
+            "success_rate": 17.3
+        },
+        "specialties": [
+            "maison",
+            "deco"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0119",
+        "name": "Thomas 119.",
+        "bio": "Passionné(e) par le style tech, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.58,
+            "experience_years": 11,
+            "clients_count": 1228,
+            "success_rate": 15.9
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0120",
+        "name": "Hugo 120.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.32,
+            "experience_years": 10,
+            "clients_count": 1213,
+            "success_rate": 14.4
+        },
+        "specialties": [
+            "beauté",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0121",
+        "name": "Julien 121.",
+        "bio": "Expert(e) en beauté, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.91,
+            "experience_years": 7,
+            "clients_count": 1477,
+            "success_rate": 10.6
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0122",
+        "name": "Thomas 122.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.77,
+            "experience_years": 4,
+            "clients_count": 1392,
+            "success_rate": 8.4
+        },
+        "specialties": [
+            "beauté",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0123",
+        "name": "Sarah 123.",
+        "bio": "Expert(e) en deco, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.49,
+            "experience_years": 1,
+            "clients_count": 178,
+            "success_rate": 14.6
+        },
+        "specialties": [
+            "beauté",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0124",
+        "name": "Julien 124.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.65,
+            "experience_years": 3,
+            "clients_count": 141,
+            "success_rate": 7.8
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0125",
+        "name": "Marine 125.",
+        "bio": "Spécialiste luxe avec 13 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.58,
+            "experience_years": 13,
+            "clients_count": 1188,
+            "success_rate": 19.1
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0126",
+        "name": "Julien 126.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.19,
+            "experience_years": 17,
+            "clients_count": 1331,
+            "success_rate": 11.5
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0127",
+        "name": "Léa 127.",
+        "bio": "Spécialiste sport avec 14 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.42,
+            "experience_years": 14,
+            "clients_count": 58,
+            "success_rate": 17.2
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0128",
+        "name": "Julien 128.",
+        "bio": "Expert(e) en sport, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.45,
+            "experience_years": 13,
+            "clients_count": 348,
+            "success_rate": 15.5
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0129",
+        "name": "Hugo 129.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.64,
+            "experience_years": 6,
+            "clients_count": 1706,
+            "success_rate": 14.7
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0130",
+        "name": "Julien 130.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.63,
+            "experience_years": 9,
+            "clients_count": 392,
+            "success_rate": 10.6
+        },
+        "specialties": [
+            "mode",
+            "accessoires"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0131",
+        "name": "Lucas 131.",
+        "bio": "Spécialiste mode avec 4 ans d'expérience.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.97,
+            "experience_years": 4,
+            "clients_count": 1566,
+            "success_rate": 14.4
+        },
+        "specialties": [
+            "beauté",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0132",
+        "name": "Lucas 132.",
+        "bio": "Expert(e) en deco, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.78,
+            "experience_years": 8,
+            "clients_count": 934,
+            "success_rate": 7.6
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0133",
+        "name": "Thomas 133.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.53,
+            "experience_years": 10,
+            "clients_count": 669,
+            "success_rate": 12.4
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0134",
+        "name": "Chloé 134.",
+        "bio": "Passionné(e) par le style maison, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.53,
+            "experience_years": 6,
+            "clients_count": 1058,
+            "success_rate": 14.1
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0135",
+        "name": "Sarah 135.",
+        "bio": "Spécialiste tech avec 8 ans d'expérience.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.8,
+            "experience_years": 8,
+            "clients_count": 1953,
+            "success_rate": 7.6
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0136",
+        "name": "Thomas 136.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.54,
+            "experience_years": 8,
+            "clients_count": 1925,
+            "success_rate": 11.8
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0137",
+        "name": "Julien 137.",
+        "bio": "Spécialiste maison avec 13 ans d'expérience.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.64,
+            "experience_years": 13,
+            "clients_count": 1614,
+            "success_rate": 21.1
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0138",
+        "name": "Julien 138.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.5,
+            "experience_years": 8,
+            "clients_count": 444,
+            "success_rate": 18.5
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "voyage"
+        ],
+        "main_category": "voyage"
+    },
+    {
+        "id": "S0139",
+        "name": "Hugo 139.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.2,
+            "experience_years": 10,
+            "clients_count": 1434,
+            "success_rate": 19.3
+        },
+        "specialties": [
+            "beauté",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0140",
+        "name": "Thomas 140.",
+        "bio": "Expert(e) en beauté, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.01,
+            "experience_years": 9,
+            "clients_count": 581,
+            "success_rate": 11.5
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0141",
+        "name": "Thomas 141.",
+        "bio": "Passionné(e) par le style styling, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.32,
+            "experience_years": 1,
+            "clients_count": 694,
+            "success_rate": 10.2
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0142",
+        "name": "Thomas 142.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.86,
+            "experience_years": 4,
+            "clients_count": 22,
+            "success_rate": 12.6
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0143",
+        "name": "Marine 143.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.5,
+            "experience_years": 1,
+            "clients_count": 598,
+            "success_rate": 10.1
+        },
+        "specialties": [
+            "luxe",
+            "montres"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0144",
+        "name": "Emma 144.",
+        "bio": "Expert(e) en accessoires, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.25,
+            "experience_years": 12,
+            "clients_count": 1389,
+            "success_rate": 14.2
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0145",
+        "name": "Hugo 145.",
+        "bio": "Spécialiste accessoires avec 11 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.5,
+            "experience_years": 11,
+            "clients_count": 847,
+            "success_rate": 9.9
+        },
+        "specialties": [
+            "beauté",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0146",
+        "name": "Thomas 146.",
+        "bio": "Passionné(e) par le style maison, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.7,
+            "experience_years": 4,
+            "clients_count": 296,
+            "success_rate": 8.6
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0147",
+        "name": "Sarah 147.",
+        "bio": "Passionné(e) par le style styling, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.21,
+            "experience_years": 3,
+            "clients_count": 1009,
+            "success_rate": 6.8
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0148",
+        "name": "Julien 148.",
+        "bio": "Passionné(e) par le style maison, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.52,
+            "experience_years": 20,
+            "clients_count": 790,
+            "success_rate": 16.0
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0149",
+        "name": "Sarah 149.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.11,
+            "experience_years": 10,
+            "clients_count": 1009,
+            "success_rate": 13.9
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0150",
+        "name": "Emma 150.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.7,
+            "experience_years": 9,
+            "clients_count": 1909,
+            "success_rate": 14.4
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "voyage"
+        ],
+        "main_category": "voyage"
+    },
+    {
+        "id": "S0151",
+        "name": "Emma 151.",
+        "bio": "Spécialiste deco avec 9 ans d'expérience.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.26,
+            "experience_years": 9,
+            "clients_count": 1508,
+            "success_rate": 11.2
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0152",
+        "name": "Thomas 152.",
+        "bio": "Expert(e) en luxe, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.76,
+            "experience_years": 8,
+            "clients_count": 12,
+            "success_rate": 16.7
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0153",
+        "name": "Chloé 153.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires styling.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.47,
+            "experience_years": 2,
+            "clients_count": 827,
+            "success_rate": 10.6
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0154",
+        "name": "Marine 154.",
+        "bio": "Expert(e) en enfants, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.03,
+            "experience_years": 14,
+            "clients_count": 1410,
+            "success_rate": 13.3
+        },
+        "specialties": [
+            "mode",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0155",
+        "name": "Marine 155.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.93,
+            "experience_years": 2,
+            "clients_count": 166,
+            "success_rate": 12.0
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0156",
+        "name": "Emma 156.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.36,
+            "experience_years": 20,
+            "clients_count": 142,
+            "success_rate": 14.1
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0157",
+        "name": "Thomas 157.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires luxe.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.28,
+            "experience_years": 3,
+            "clients_count": 352,
+            "success_rate": 17.4
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0158",
+        "name": "Léa 158.",
+        "bio": "Expert(e) en maison, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.34,
+            "experience_years": 14,
+            "clients_count": 1598,
+            "success_rate": 15.4
+        },
+        "specialties": [
+            "beauté",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0159",
+        "name": "Marine 159.",
+        "bio": "Spécialiste beauté avec 9 ans d'expérience.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.1,
+            "experience_years": 9,
+            "clients_count": 1866,
+            "success_rate": 16.2
+        },
+        "specialties": [
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0160",
+        "name": "Julien 160.",
+        "bio": "Spécialiste luxe avec 6 ans d'expérience.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.37,
+            "experience_years": 6,
+            "clients_count": 770,
+            "success_rate": 8.0
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0161",
+        "name": "Julien 161.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.27,
+            "experience_years": 17,
+            "clients_count": 1886,
+            "success_rate": 22.1
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0162",
+        "name": "Julien 162.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.31,
+            "experience_years": 13,
+            "clients_count": 1449,
+            "success_rate": 17.6
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0163",
+        "name": "Thomas 163.",
+        "bio": "Spécialiste luxe avec 12 ans d'expérience.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.24,
+            "experience_years": 12,
+            "clients_count": 1682,
+            "success_rate": 10.5
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0164",
+        "name": "Hugo 164.",
+        "bio": "Expert(e) en luxe, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.37,
+            "experience_years": 1,
+            "clients_count": 193,
+            "success_rate": 14.0
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0165",
+        "name": "Lucas 165.",
+        "bio": "Expert(e) en deco, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.58,
+            "experience_years": 3,
+            "clients_count": 1112,
+            "success_rate": 10.7
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0166",
+        "name": "Thomas 166.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires luxe.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.54,
+            "experience_years": 15,
+            "clients_count": 1202,
+            "success_rate": 13.6
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0167",
+        "name": "Sarah 167.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.67,
+            "experience_years": 13,
+            "clients_count": 66,
+            "success_rate": 15.1
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "voyage"
+        ],
+        "main_category": "voyage"
+    },
+    {
+        "id": "S0168",
+        "name": "Lucas 168.",
+        "bio": "Expert(e) en voyage, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.92,
+            "experience_years": 20,
+            "clients_count": 1254,
+            "success_rate": 10.1
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "voyage"
+        ],
+        "main_category": "voyage"
+    },
+    {
+        "id": "S0169",
+        "name": "Thomas 169.",
+        "bio": "Spécialiste tech avec 14 ans d'expérience.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 3.36,
+            "experience_years": 14,
+            "clients_count": 1649,
+            "success_rate": 9.5
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0170",
+        "name": "Thomas 170.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.44,
+            "experience_years": 17,
+            "clients_count": 1897,
+            "success_rate": 11.7
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0171",
+        "name": "Sarah 171.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.95,
+            "experience_years": 16,
+            "clients_count": 379,
+            "success_rate": 16.2
+        },
+        "specialties": [
+            "mode",
+            "enfants"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0172",
+        "name": "Chloé 172.",
+        "bio": "Expert(e) en mode, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.52,
+            "experience_years": 13,
+            "clients_count": 1383,
+            "success_rate": 16.3
+        },
+        "specialties": [
+            "beauté",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0173",
+        "name": "Marine 173.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.41,
+            "experience_years": 10,
+            "clients_count": 444,
+            "success_rate": 9.2
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0174",
+        "name": "Julien 174.",
+        "bio": "Spécialiste deco avec 16 ans d'expérience.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 3.05,
+            "experience_years": 16,
+            "clients_count": 1948,
+            "success_rate": 14.6
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0175",
+        "name": "Julien 175.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.7,
+            "experience_years": 19,
+            "clients_count": 704,
+            "success_rate": 12.2
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0176",
+        "name": "Emma 176.",
+        "bio": "Passionné(e) par le style maison, je crée des dressings durables.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.35,
+            "experience_years": 10,
+            "clients_count": 1063,
+            "success_rate": 12.6
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0177",
+        "name": "Lucas 177.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.71,
+            "experience_years": 15,
+            "clients_count": 1025,
+            "success_rate": 21.9
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "mode"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0178",
+        "name": "Julien 178.",
+        "bio": "Passionné(e) par le style mode, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.12,
+            "experience_years": 20,
+            "clients_count": 1372,
+            "success_rate": 21.5
+        },
+        "specialties": [
+            "mode",
+            "accessoires",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0179",
+        "name": "Chloé 179.",
+        "bio": "Expert(e) en beauté, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 3.2,
+            "experience_years": 6,
+            "clients_count": 971,
+            "success_rate": 14.9
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0180",
+        "name": "Sarah 180.",
+        "bio": "Passionné(e) par le style maison, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.39,
+            "experience_years": 13,
+            "clients_count": 631,
+            "success_rate": 17.1
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0181",
+        "name": "Hugo 181.",
+        "bio": "Spécialiste luxe avec 1 ans d'expérience.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 3.02,
+            "experience_years": 1,
+            "clients_count": 1136,
+            "success_rate": 16.8
+        },
+        "specialties": [
+            "styling",
+            "conseil",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0182",
+        "name": "Hugo 182.",
+        "bio": "Spécialiste enfants avec 18 ans d'expérience.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.73,
+            "experience_years": 18,
+            "clients_count": 936,
+            "success_rate": 23.1
+        },
+        "specialties": [
+            "mode",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0183",
+        "name": "Emma 183.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires luxe.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.55,
+            "experience_years": 17,
+            "clients_count": 1926,
+            "success_rate": 17.1
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "beauté"
+        ],
+        "main_category": "beauté"
+    },
+    {
+        "id": "S0184",
+        "name": "Julien 184.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.91,
+            "experience_years": 3,
+            "clients_count": 638,
+            "success_rate": 12.4
+        },
+        "specialties": [
+            "mode",
+            "enfants"
+        ],
+        "main_category": "mode"
+    },
+    {
+        "id": "S0185",
+        "name": "Julien 185.",
+        "bio": "Expert(e) en sport, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.11,
+            "experience_years": 6,
+            "clients_count": 344,
+            "success_rate": 13.9
+        },
+        "specialties": [
+            "maison",
+            "lifestyle",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0186",
+        "name": "Léa 186.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.01,
+            "experience_years": 18,
+            "clients_count": 756,
+            "success_rate": 17.0
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0187",
+        "name": "Léa 187.",
+        "bio": "Spécialiste enfants avec 14 ans d'expérience.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 4.58,
+            "experience_years": 14,
+            "clients_count": 1261,
+            "success_rate": 17.0
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "enfants"
+        ],
+        "main_category": "enfants"
+    },
+    {
+        "id": "S0188",
+        "name": "Julien 188.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires mode.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.91,
+            "experience_years": 16,
+            "clients_count": 568,
+            "success_rate": 15.9
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0189",
+        "name": "Emma 189.",
+        "bio": "Expert(e) en accessoires, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.88,
+            "experience_years": 9,
+            "clients_count": 1617,
+            "success_rate": 17.0
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0190",
+        "name": "Thomas 190.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires beauté.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.74,
+            "experience_years": 3,
+            "clients_count": 415,
+            "success_rate": 15.8
+        },
+        "specialties": [
+            "beauté",
+            "deco"
+        ],
+        "main_category": "deco"
+    },
+    {
+        "id": "S0191",
+        "name": "Hugo 191.",
+        "bio": "Expert(e) en sport, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Bordeaux Centre",
+            "lat": 44.837,
+            "lon": -0.579
+        },
+        "metrics": {
+            "rating": 4.15,
+            "experience_years": 20,
+            "clients_count": 267,
+            "success_rate": 15.9
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "sport"
+        ],
+        "main_category": "sport"
+    },
+    {
+        "id": "S0192",
+        "name": "Léa 192.",
+        "bio": "Expert(e) en maison, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.69,
+            "experience_years": 4,
+            "clients_count": 1272,
+            "success_rate": 12.5
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0193",
+        "name": "Emma 193.",
+        "bio": "Expert(e) en gaming, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.34,
+            "experience_years": 14,
+            "clients_count": 1599,
+            "success_rate": 19.5
+        },
+        "specialties": [
+            "mode",
+            "enfants",
+            "gaming"
+        ],
+        "main_category": "gaming"
+    },
+    {
+        "id": "S0194",
+        "name": "Chloé 194.",
+        "bio": "Je transforme votre image pro. Expert(e) en codes vestimentaires maison.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.62,
+            "experience_years": 1,
+            "clients_count": 771,
+            "success_rate": 12.7
+        },
+        "specialties": [
+            "maison",
+            "deco",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0195",
+        "name": "Marine 195.",
+        "bio": "Passionné(e) par le style tech, je crée des dressings durables.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 4.57,
+            "experience_years": 3,
+            "clients_count": 124,
+            "success_rate": 14.9
+        },
+        "specialties": [
+            "tech",
+            "gadgets",
+            "accessoires"
+        ],
+        "main_category": "accessoires"
+    },
+    {
+        "id": "S0196",
+        "name": "Marine 196.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Lille",
+            "lat": 50.629,
+            "lon": 3.057
+        },
+        "metrics": {
+            "rating": 4.39,
+            "experience_years": 11,
+            "clients_count": 1491,
+            "success_rate": 14.9
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "tech"
+        ],
+        "main_category": "tech"
+    },
+    {
+        "id": "S0197",
+        "name": "Emma 197.",
+        "bio": "Expert(e) en maison, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Lyon Confluence",
+            "lat": 45.74,
+            "lon": 4.819
+        },
+        "metrics": {
+            "rating": 3.24,
+            "experience_years": 3,
+            "clients_count": 931,
+            "success_rate": 8.8
+        },
+        "specialties": [
+            "mode",
+            "sport",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0198",
+        "name": "Lucas 198.",
+        "bio": "Passionné(e) par le style luxe, je crée des dressings durables.",
+        "location": {
+            "name": "Paris 8e",
+            "lat": 48.872,
+            "lon": 2.308
+        },
+        "metrics": {
+            "rating": 4.88,
+            "experience_years": 17,
+            "clients_count": 1269,
+            "success_rate": 14.9
+        },
+        "specialties": [
+            "luxe",
+            "montres",
+            "maison"
+        ],
+        "main_category": "maison"
+    },
+    {
+        "id": "S0199",
+        "name": "Marine 199.",
+        "bio": "Passionné(e) par le style beauté, je crée des dressings durables.",
+        "location": {
+            "name": "Paris Le Marais",
+            "lat": 48.857,
+            "lon": 2.358
+        },
+        "metrics": {
+            "rating": 3.35,
+            "experience_years": 9,
+            "clients_count": 1115,
+            "success_rate": 9.0
+        },
+        "specialties": [
+            "beauté",
+            "parfum",
+            "luxe"
+        ],
+        "main_category": "luxe"
+    },
+    {
+        "id": "S0200",
+        "name": "Thomas 200.",
+        "bio": "Expert(e) en voyage, j'aide mes clients à reprendre confiance.",
+        "location": {
+            "name": "Marseille Vieux-Port",
+            "lat": 43.295,
+            "lon": 5.374
+        },
+        "metrics": {
+            "rating": 4.01,
+            "experience_years": 19,
+            "clients_count": 223,
+            "success_rate": 10.4
+        },
+        "specialties": [
+            "beauté",
+            "voyage"
+        ],
+        "main_category": "voyage"
+    }
+]

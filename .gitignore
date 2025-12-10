@@ -1,0 +1,18 @@
+# Sécurité (Clés API)
+.env
+.env.local
+
+# Python (Dossiers temporaires)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Frontend (Node.js)
+node_modules/
+dist/
+build/
+.DS_Store
