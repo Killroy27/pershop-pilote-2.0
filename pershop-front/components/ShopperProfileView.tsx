@@ -1,9 +1,11 @@
+
 "use client"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
-import { CheckCircle2, Globe, Instagram, Linkedin, MapPin, X } from "lucide-react"
+import { AnimatePresence, motion } from "framer-motion"
+import { Calendar, CheckCircle2, Clock, Globe, Instagram, Linkedin, MapPin, X } from "lucide-react"
+import { useState } from "react"
 
 type ShopperProfileViewProps = {
   shopper: any
@@ -11,6 +13,11 @@ type ShopperProfileViewProps = {
 }
 
 export default function ShopperProfileView({ shopper, onClose }: ShopperProfileViewProps) {
+  const [showBooking, setShowBooking] = useState(false)
+  const [selectedDate, setSelectedDate] = useState<string | null>(null)
+  const [selectedSlot, setSelectedSlot] = useState<string | null>(null)
+  const [bookingConfirmed, setBookingConfirmed] = useState(false)
+
   // Mock data for the luxury view
   const galleryImages = [
     "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=300&auto=format&fit=crop",
@@ -23,6 +30,31 @@ export default function ShopperProfileView({ shopper, onClose }: ShopperProfileV
     { title: "Forfait Shopping VIP (Demi-journée)", price: "1500 €", desc: "Parcours shopping exclusif avec accès privé, essayages guidés." },
     { title: "Abonnement Annuel Elite", price: "Sur devis", desc: "Accès privilégié, conciergerie de mode, gestion complète de garde-robe." }
   ]
+
+  // Mock available dates (next 7 days)
+  const availableDates = Array.from({ length: 7 }, (_, i) => {
+    const date = new Date()
+    date.setDate(date.getDate() + i + 1)
+    return {
+      full: date.toISOString().split('T')[0],
+      display: date.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' })
+    }
+  })
+
+  // Mock time slots
+  const timeSlots = ["09:00", "10:30", "14:00", "15:30", "17:00"]
+
+  const handleBooking = () => {
+    if (selectedDate && selectedSlot) {
+      setBookingConfirmed(true)
+      setTimeout(() => {
+        setBookingConfirmed(false)
+        setShowBooking(false)
+        setSelectedDate(null)
+        setSelectedSlot(null)
+      }, 3000)
+    }
+  }
 
   return (
     <motion.div 
@@ -131,9 +163,115 @@ export default function ShopperProfileView({ shopper, onClose }: ShopperProfileV
                             </div>
                         ))}
                     </div>
-                    <Button className="w-full mt-8 bg-amber-500 hover:bg-amber-600 text-black font-bold h-12">
-                        Contactez {shopper.shopper_name.split(' ')[0]}
-                    </Button>
+                    
+                    <AnimatePresence mode="wait">
+                      {!showBooking ? (
+                        <motion.div
+                          key="buttons"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          exit={{ opacity: 0 }}
+                          className="space-y-3 mt-8"
+                        >
+                          <Button 
+                            onClick={() => setShowBooking(true)}
+                            className="w-full bg-amber-500 hover:bg-amber-600 text-black font-bold h-12 gap-2"
+                          >
+                            <Calendar className="h-4 w-4" /> Réserver un Créneau
+                          </Button>
+                          <Button variant="outline" className="w-full border-amber-500/50 text-amber-500 hover:bg-amber-500/10">
+                            Contactez {shopper.shopper_name.split(' ')[0]}
+                          </Button>
+                        </motion.div>
+                      ) : (
+                        <motion.div
+                          key="booking"
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -20 }}
+                          className="mt-8 space-y-4"
+                        >
+                          {bookingConfirmed ? (
+                            <div className="bg-primary/20 border border-primary/40 rounded-lg p-6 text-center space-y-2">
+                              <CheckCircle2 className="h-12 w-12 text-primary mx-auto" />
+                              <h4 className="font-bold text-primary">Réservation Confirmée !</h4>
+                              <p className="text-xs text-muted-foreground">
+                                Vous recevrez un email de confirmation sous peu.
+                              </p>
+                            </div>
+                          ) : (
+                            <>
+                              <div>
+                                <label className="text-xs font-semibold text-muted-foreground mb-2 block">Choisissez une date</label>
+                                <div className="grid grid-cols-3 gap-2">
+                                  {availableDates.slice(0, 6).map((date) => (
+                                    <button
+                                      key={date.full}
+                                      onClick={() => setSelectedDate(date.full)}
+                                      className={`p-2 rounded-lg text-xs font-medium transition-all border ${
+                                        selectedDate === date.full
+                                          ? 'bg-amber-500 text-black border-amber-500'
+                                          : 'bg-secondary/40 border-white/5 hover:border-amber-500/50'
+                                      }`}
+                                    >
+                                      {date.display}
+                                    </button>
+                                  ))}
+                                </div>
+                              </div>
+
+                              {selectedDate && (
+                                <motion.div
+                                  initial={{ opacity: 0, height: 0 }}
+                                  animate={{ opacity: 1, height: 'auto' }}
+                                >
+                                  <label className="text-xs font-semibold text-muted-foreground mb-2 block flex items-center gap-1">
+                                    <Clock className="h-3 w-3" /> Horaire disponible
+                                  </label>
+                                  <div className="grid grid-cols-2 gap-2">
+                                    {timeSlots.map((slot) => (
+                                      <button
+                                        key={slot}
+                                        onClick={() => setSelectedSlot(slot)}
+                                        className={`p-2 rounded-lg text-sm font-medium transition-all border ${
+                                          selectedSlot === slot
+                                            ? 'bg-amber-500 text-black border-amber-500'
+                                            : 'bg-secondary/40 border-white/5 hover:border-amber-500/50'
+                                        }`}
+                                      >
+                                        {slot}
+                                      </button>
+                                    ))}
+                                  </div>
+                                </motion.div>
+                              )}
+
+                              <div className="flex gap-2 pt-2">
+                                <Button
+                                  variant="outline"
+                                  onClick={() => {
+                                    setShowBooking(false)
+                                    setSelectedDate(null)
+                                    setSelectedSlot(null)
+                                  }}
+                                  className="flex-1"
+                                >
+                                  Annuler
+                                </Button>
+                                <Button
+                                  onClick={handleBooking}
+                                  disabled={!selectedDate || !selectedSlot}
+                                  className="flex-1 bg-amber-500 hover:bg-amber-600 text-black font-bold disabled:opacity-50"
+                                >
+                                  Confirmer
+                                </Button>
+                              </div>
+                            </>
+                          )}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+
                     <div className="flex justify-center gap-6 mt-6 text-muted-foreground">
                         <Linkedin className="h-5 w-5 hover:text-white cursor-pointer transition-colors" />
                         <Instagram className="h-5 w-5 hover:text-white cursor-pointer transition-colors" />
