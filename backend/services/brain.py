@@ -22,10 +22,8 @@ class BrainService:
         # DÉTECTION
         if self.api_key and self.api_key.startswith("gsk_"):
             self.provider = "groq"
-            print(f"🔌 Mode détecté : GROQ (Clé : {self.api_key[:10]}...)")
         elif self.api_key and self.api_key.startswith("sk-"):
             self.provider = "openai"
-            print("🔌 Mode détecté : OPENAI")
         else:
             print("⚠️ Aucune clé reconnue.")
 

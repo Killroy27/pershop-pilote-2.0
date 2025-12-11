@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # On importe nos agents champions
 from backend.agents.mirror_agent.emotional_analyzer import MirrorAgent
+from backend.agents.context_genius.context_analyzer import ContextGeniusAgent
 from backend.agents.harmony_orchestrator.matching_engine import HarmonyEngine
 
 # --- 1. CONFIGURATION ---
@@ -33,25 +34,31 @@ async def process_client(request: ClientRequest):
     """
     Cette route fait tout le travail en une fois :
     1. Analyse psy (Mirror)
-    2. Recherche des shoppers (Harmony)
+    2. Analyse contexte (Context Genius)
+    3. Recherche des shoppers (Harmony)
     """
     print(f"📩 Reçu demande client : {request.text[:30]}...")
     
     try:
-        # ÉTAPE 1 : Mirror Agent
+        # ÉTAPE 1 : Mirror Agent (Psychologie)
         mirror = MirrorAgent()
-        analysis = mirror.analyze(request.text)
+        mirror_analysis = mirror.analyze(request.text)
         
-        if not analysis:
+        if not mirror_analysis:
             raise HTTPException(status_code=500, detail="L'analyse psychologique a échoué.")
 
-        # ÉTAPE 2 : Harmony Orchestrator
+        # ÉTAPE 2 : Context Genius (Logistique & Contraintes)
+        context = ContextGeniusAgent()
+        context_analysis = context.analyze(request.text)
+
+        # ÉTAPE 3 : Harmony Orchestrator
         harmony = HarmonyEngine()
-        matches = harmony.match(analysis)
+        matches = harmony.match(mirror_analysis, context_analysis)
 
         # On renvoie tout au Frontend
         return {
-            "profile_analysis": analysis,
+            "profile_analysis": mirror_analysis,
+            "context_analysis": context_analysis,
             "shoppers_found": matches
         }
 
