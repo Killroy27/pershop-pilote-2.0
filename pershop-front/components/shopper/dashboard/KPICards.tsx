@@ -2,7 +2,14 @@
 
 import { Star, TrendingUp, TrendingDown } from "lucide-react";
 
-export function KPICards() {
+export function KPICards({ data }: { data?: any }) {
+    // Use data from API or fallback to mock
+    const kpis = data || {
+        new_matchings: 12,
+        satisfaction_rate: 4.8,
+        revenue: "3,200€"
+    };
+
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
 
@@ -10,7 +17,7 @@ export function KPICards() {
             <div className="bg-white p-6 rounded-xl shadow-[0_2px_10px_rgba(0,0,0,0.03)] border border-gray-100 hover:shadow-[0_4px_20px_rgba(0,0,0,0.06)] transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-gray-500 font-medium mb-4 tracking-wide uppercase text-xs">Nouveaux Matchings</h3>
                 <div className="flex items-end gap-3 mb-2">
-                    <span className="text-5xl font-serif font-bold text-[#111111]">12</span>
+                    <span className="text-5xl font-serif font-bold text-[#111111]">{kpis.new_matchings}</span>
                 </div>
                 <p className="text-sm text-[#D4AF37] flex items-center gap-1 font-medium bg-[#D4AF37]/10 w-fit px-2 py-1 rounded-full">
                     <TrendingUp className="h-3 w-3" /> +3 aujourd&apos;hui
@@ -21,7 +28,7 @@ export function KPICards() {
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <h3 className="text-gray-500 font-medium mb-4">Taux Satisfaction</h3>
                 <div className="flex items-center gap-4 mb-2">
-                    <span className="text-5xl font-serif font-bold text-[#111111]">4.9/5</span>
+                    <span className="text-5xl font-serif font-bold text-[#111111]">{kpis.satisfaction_rate}/5</span>
                     <div className="flex text-[#D4AF37]">
                         {[1, 2, 3, 4, 5].map((star) => (
                             <Star key={star} className="h-5 w-5 fill-current" />
@@ -40,7 +47,7 @@ export function KPICards() {
                     </span>
                 </div>
                 <div className="mb-2">
-                    <span className="text-5xl font-serif font-bold text-[#111111]">2,840€</span>
+                    <span className="text-5xl font-serif font-bold text-[#111111]">{kpis.revenue}</span>
                 </div>
 
                 {/* Simplified SVG Curve */}

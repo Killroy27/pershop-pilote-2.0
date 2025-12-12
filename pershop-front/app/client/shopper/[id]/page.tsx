@@ -1,38 +1,97 @@
 "use client";
 
+import { useState, useEffect } from "react";
+import { useParams } from "next/navigation";
 import { ShopperHero } from "@/components/shopper/ShopperHero";
 import { ShopperPortfolio } from "@/components/shopper/ShopperPortfolio";
 import { ServiceList } from "@/components/shopper/ServiceList";
+import { Loader2 } from "lucide-react";
 
-// Mock Data for "sophie"
-const sophieData = {
-    name: "Sophie Laurent",
-    title: "Personal Shopper Elite",
-    location: "Paris",
-    matchScore: 94,
-    avatarUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop",
-    bannerUrl: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop", // Boutique/Luxury Store
-    bio: "Expert in cultivating luxury wardrobes for discerning international clientele. With over a decade of experience in high-end fashion, Sophie blends Parisian elegance with personalized style strategies. She excels in curating pieces from top fashion houses, creating confident looks for business and events, and guiding clients to discover their perfect color palettes and silhouettes.",
-    specialties: ["Mode Luxe", "Colorimétrie Expert", "Morphologie", "Business", "Événementiel", "Garde-robe capsule"],
-    galleryImages: [
-        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=400&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1548624149-f3214c7c944a?q=80&w=400&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1589363359871-337d45766299?q=80&w=400&auto=format&fit=crop", // Accessories
-        "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?q=80&w=400&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=400&auto=format&fit=crop", // Clothes rack
-        "https://images.unsplash.com/photo-1550614000-4b9519e02a48?q=80&w=400&auto=format&fit=crop",
-    ],
-    services: [
-        { title: "Séance Stylisme Personnalisée (2h)", price: "350 €", description: "Consultation colorimétrie, morphologie et conseils ciblés en boutique." },
-        { title: "Forfait Shopping VIP (Demi-journée)", price: "1500 €", description: "Parcours shopping exclusif avec accès privé, essayages guidés." },
-        { title: "Abonnement Annuel Elite", price: "Sur demande", description: "Accès privilégié, conciergerie de mode, gestion complète de garde-robe." },
-    ]
-};
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:9000";
 
-export default function ShopperProfilePage({ params }: { params: { id: string } }) {
-    // In a real app, fetch data based on params.id
-    // const shopper = fetchShopper(params.id)
-    const shopper = sophieData;
+// Default services (can be customized per shopper later)
+const defaultServices = [
+    { title: "Séance Stylisme Personnalisée (2h)", price: "350 €", description: "Consultation colorimétrie, morphologie et conseils ciblés en boutique." },
+    { title: "Forfait Shopping VIP (Demi-journée)", price: "1500 €", description: "Parcours shopping exclusif avec accès privé, essayages guidés." },
+    { title: "Abonnement Annuel Elite", price: "Sur demande", description: "Accès privilégié, conciergerie de mode, gestion complète de garde-robe." },
+];
+
+// Default gallery images
+const defaultGallery = [
+    "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1548624149-f3214c7c944a?q=80&w=400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1589363359871-337d45766299?q=80&w=400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?q=80&w=400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1550614000-4b9519e02a48?q=80&w=400&auto=format&fit=crop",
+];
+
+export default function ShopperProfilePage() {
+    const params = useParams();
+    const shopperId = params.id;
+    const [shopper, setShopper] = useState<any>(null);
+    const [matchData, setMatchData] = useState<any>(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<string | null>(null);
+
+    useEffect(() => {
+        const fetchShopper = async () => {
+            try {
+                // Get shopper from API
+                const response = await fetch(`${API_URL}/api/shoppers/${shopperId}`);
+                if (!response.ok) throw new Error("Shopper not found");
+                const data = await response.json();
+
+                // Get AI analysis from localStorage (for match score)
+                const analysisJson = localStorage.getItem("pershop_ai_analysis");
+                if (analysisJson) {
+                    const analysis = JSON.parse(analysisJson);
+                    setMatchData(analysis);
+                }
+
+                setShopper(data);
+                setLoading(false);
+            } catch (err) {
+                console.error("Error fetching shopper:", err);
+                setError("Shopper non trouvé");
+                setLoading(false);
+            }
+        };
+
+        if (shopperId) {
+            fetchShopper();
+        }
+    }, [shopperId]);
+
+    if (loading) {
+        return (
+            <div className="min-h-screen bg-background flex items-center justify-center">
+                <Loader2 className="h-8 w-8 animate-spin text-[#D4AF37]" />
+            </div>
+        );
+    }
+
+    if (error || !shopper) {
+        return (
+            <div className="min-h-screen bg-background flex items-center justify-center">
+                <div className="text-center">
+                    <p className="text-xl font-medium mb-2">Shopper non trouvé</p>
+                    <p className="text-muted-foreground">ID: {shopperId}</p>
+                </div>
+            </div>
+        );
+    }
+
+    // Calculate match score from stored analysis
+    let matchScore = 85; // Default score
+    if (matchData?.matched_shoppers) {
+        const matchedShopper = matchData.matched_shoppers.find(
+            (s: any) => s.id === parseInt(shopperId as string)
+        );
+        if (matchedShopper?.match_score) {
+            matchScore = Math.round(matchedShopper.match_score);
+        }
+    }
 
     return (
         <div className="min-h-screen bg-background text-foreground pb-20 transition-colors duration-500">
@@ -41,11 +100,11 @@ export default function ShopperProfilePage({ params }: { params: { id: string } 
                 {/* Header Section */}
                 <ShopperHero
                     name={shopper.name}
-                    title={shopper.title}
+                    title="Personal Shopper Elite"
                     location={shopper.location}
-                    matchScore={shopper.matchScore}
-                    avatarUrl={shopper.avatarUrl}
-                    bannerUrl={shopper.bannerUrl}
+                    matchScore={matchScore}
+                    avatarUrl={shopper.avatar_url || `https://i.pravatar.cc/400?u=${shopper.id}`}
+                    bannerUrl="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop"
                 />
 
                 {/* Main Layout */}
@@ -54,9 +113,9 @@ export default function ShopperProfilePage({ params }: { params: { id: string } 
                     {/* Left Column: Bio & Portfolio (8 cols) */}
                     <div className="lg:col-span-8 animate-in slide-in-from-bottom-8 duration-700">
                         <ShopperPortfolio
-                            bio={shopper.bio}
-                            specialties={shopper.specialties}
-                            galleryImages={shopper.galleryImages}
+                            bio={shopper.bio || "Expert en style personnalisé avec des années d'expérience dans l'accompagnement de clients exigeants."}
+                            specialties={shopper.specialties || ["Mode", "Conseil", "Style"]}
+                            galleryImages={defaultGallery}
                         />
                     </div>
 
@@ -64,7 +123,7 @@ export default function ShopperProfilePage({ params }: { params: { id: string } 
                     <div className="lg:col-span-4">
                         <div className="sticky top-24 animate-in slide-in-from-right-8 duration-700 delay-200">
                             <ServiceList
-                                services={shopper.services}
+                                services={defaultServices}
                                 shopperName={shopper.name}
                             />
                         </div>

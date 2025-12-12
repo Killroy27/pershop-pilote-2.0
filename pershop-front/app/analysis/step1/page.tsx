@@ -22,6 +22,18 @@ export default function AnalysisStep1Page() {
 
     const canProceed = mood && objective;
 
+    const handleContinue = () => {
+        // Store step 1 data for AI analysis
+        const step1Data = {
+            mood,
+            objective,
+            objectiveLabel: objectives.find(o => o.id === objective)?.label || objective,
+            timestamp: new Date().toISOString()
+        };
+        localStorage.setItem("pershop_step1", JSON.stringify(step1Data));
+        router.push('/analysis/step2');
+    };
+
     return (
         <div className="container max-w-screen-lg mx-auto py-8 px-4 flex flex-col min-h-screen">
 
@@ -75,7 +87,7 @@ export default function AnalysisStep1Page() {
                 <Button
                     disabled={!canProceed}
                     className="bg-[#D4AF37] text-black hover:bg-[#FCCA2E] text-lg px-12 py-6 rounded-full font-medium transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:shadow-[0_0_40px_rgba(212,175,55,0.5)]"
-                    onClick={() => router.push('/analysis/step2')}
+                    onClick={handleContinue}
                 >
                     Continuer
                 </Button>
