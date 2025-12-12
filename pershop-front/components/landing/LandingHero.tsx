@@ -1,9 +1,14 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import { Shield, Star, UserCheck } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
+import { LogOut, Shield, Star, User, UserCheck } from "lucide-react";
 import Link from "next/link";
 import { PsychologyChart } from "./PsychologyChart";
 
 export function LandingHero() {
+    const { user, logout } = useAuth();
+
     return (
         <div className="min-h-screen w-full bg-background text-foreground font-sans selection:bg-primary selection:text-primary-foreground overflow-hidden relative">
 
@@ -16,16 +21,35 @@ export function LandingHero() {
                     PERSHOP
                 </div>
                 <div className="flex items-center gap-4">
-                    <Link href="/auth/login">
-                        <Button variant="ghost" className="text-muted-foreground hover:text-[#D4AF37] hover:bg-transparent text-sm font-medium tracking-wide">
-                            CONNEXION
-                        </Button>
-                    </Link>
-                    <Link href="/auth/signup">
-                        <Button className="bg-[#D4AF37] text-white hover:bg-[#b5952f] rounded-full px-6 text-xs font-bold tracking-widest shadow-md transition-all hover:scale-105">
-                            INSCRIPTION
-                        </Button>
-                    </Link>
+                    {user ? (
+                        <>
+                            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#D4AF37]/10 border border-[#D4AF37]/20">
+                                <User className="h-4 w-4 text-[#D4AF37]" />
+                                <span className="text-sm font-medium text-[#D4AF37]">{user.full_name}</span>
+                            </div>
+                            <Button
+                                variant="ghost"
+                                onClick={logout}
+                                className="text-muted-foreground hover:text-[#D4AF37] hover:bg-transparent text-sm font-medium tracking-wide gap-2"
+                            >
+                                <LogOut className="h-4 w-4" />
+                                DÉCONNEXION
+                            </Button>
+                        </>
+                    ) : (
+                        <>
+                            <Link href="/auth/login">
+                                <Button variant="ghost" className="text-muted-foreground hover:text-[#D4AF37] hover:bg-transparent text-sm font-medium tracking-wide">
+                                    CONNEXION
+                                </Button>
+                            </Link>
+                            <Link href="/auth/signup">
+                                <Button className="bg-[#D4AF37] text-white hover:bg-[#b5952f] rounded-full px-6 text-xs font-bold tracking-widest shadow-md transition-all hover:scale-105">
+                                    INSCRIPTION
+                                </Button>
+                            </Link>
+                        </>
+                    )}
                 </div>
             </nav>
 
