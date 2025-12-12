@@ -102,21 +102,48 @@ class HarmonyEngine:
             
             scored_shoppers.append({
                 "shopper": shopper,
-                "score": total_score,
+                "total_score": total_score,
                 "breakdown": breakdown
             })
 
-        # 2. TRI ET SÉLECTION
-        scored_shoppers.sort(key=lambda x: x['score'], reverse=True)
-        top_3 = scored_shoppers[:limit]
-
-        # 3. LA TOUCHE MAGIQUE (Narrative Generation)
+        # --- FINAL RANKING ---
+        scored_shoppers.sort(key=lambda x: x['total_score'], reverse=True)
+        
+        print(f"📊 Total shoppers scored: {len(scored_shoppers)}")
+        if scored_shoppers:
+            print(f"🏆 Top score: {scored_shoppers[0]['total_score']}, Worst: {scored_shoppers[-1]['total_score']}")
+        
+        # IMPORTANT: Always return at least 'limit' shoppers, even if scores are low
+        # This ensures the user always gets recommendations
+        top_matches = scored_shoppers[:limit] if len(scored_shoppers) >= limit else scored_shoppers
+        
+        # If we have fewer than limit, pad with random shoppers
+        if len(top_matches) < limit and len(self.shoppers) > 0:
+            remaining_shoppers = [s for s in self.shoppers if s not in [m['shopper'] for m in top_matches]]
+            import random
+            additional = random.sample(remaining_shoppers, min(limit - len(top_matches), len(remaining_shoppers)))
+            for shopper in additional:
+                top_matches.append({
+                    'shopper': shopper,
+                    'total_score': 50,  # Default score
+                    'breakdown': {'psych': 10, 'tech': 10, 'context': 10, 'metrics': 10, 'geo': 10}
+                })
+        
+        print(f"✅ Returning {len(top_matches)} shoppers")
+        
+        # Format final results
         results = []
-        for item in top_3:
+        for item in top_matches:
+            # Generate narrative with LLM
             narrative = self._generate_narrative(item['shopper'], mirror_analysis, context_analysis)
+            
             results.append({
-                "shopper_name": item['shopper']['name'],
-                "match_score": int(item['score']),
+                "id": item['shopper']['id'],
+                "name": item['shopper']['name'],
+                "bio": item['shopper']['bio'],
+                "profile_image": f"https://i.pravatar.cc/400?u={item['shopper']['id']}",
+                "match_score": round(item['total_score'], 1),
+                "breakdown": item['breakdown'],
                 "why_this_match": narrative,
                 "tags": item['shopper'].get('specialties', [])[:3],
                 "location": item['shopper']['location']['name']

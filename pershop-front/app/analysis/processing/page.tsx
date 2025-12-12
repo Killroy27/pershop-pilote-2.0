@@ -1,17 +1,19 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import { MatchingLoader } from "@/components/analysis/MatchingLoader";
 import { ProcessSteps } from "@/components/analysis/ProcessSteps";
+import { useAnalysis } from "@/contexts/AnalysisContext";
+import { analyzeAndMatch } from "@/lib/api";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function ProcessingPage() {
     const router = useRouter();
     const [step, setStep] = useState(0);
+    const { analysisData, setResults } = useAnalysis();
 
     useEffect(() => {
-        // Total steps = 5 (0 to 4)
-        // We want to simulate a progression
+        // Simulate step progression for UI
         const interval = setInterval(() => {
             setStep((prev) => {
                 if (prev >= 5) {
@@ -22,8 +24,38 @@ export default function ProcessingPage() {
             });
         }, 1500); // 1.5s per step
 
+        // Call backend API in parallel
+        const callBackend = async () => {
+            try {
+                // Build analysis text from collected data
+                const text = `
+                    Mood: ${analysisData.mood || 'neutre'}
+                    Objectif: ${analysisData.objective || 'découvrir mon style'}
+                    Budget: ${analysisData.budget?.[0] || 800}€
+                    Occasion: ${analysisData.occasion || 'quotidien'}
+                    Styles préférés: ${analysisData.selectedStyles?.join(', ') || 'aucun'}
+                    Marques préférées: ${analysisData.selectedBrands?.join(', ') || 'aucune'}
+                    Description: ${analysisData.description || 'Pas de description'}
+                `.trim();
+
+                console.log("🚀 Calling backend API...");
+                const response = await analyzeAndMatch(text);
+                console.log("✅ Backend response:", response);
+                console.log("📊 Shoppers found:", response?.shoppers_found?.length || 0);
+                
+                // Save to both context AND localStorage for persistence
+                setResults(response);
+                localStorage.setItem('pershop_analysis_results', JSON.stringify(response));
+                console.log("💾 Results saved to localStorage");
+            } catch (error) {
+                console.error("❌ Erreur lors de l'analyse:", error);
+            }
+        };
+
+        callBackend();
+
         return () => clearInterval(interval);
-    }, []);
+    }, [analysisData, setResults]);
 
     // Redirect when done
     useEffect(() => {
