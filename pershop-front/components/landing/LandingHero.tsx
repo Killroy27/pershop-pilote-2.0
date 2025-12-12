@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Shield, Star, UserCheck } from "lucide-react";
+import Link from "next/link";
 import { PsychologyChart } from "./PsychologyChart";
-import { Shield, UserCheck, Star } from "lucide-react";
 
 export function LandingHero() {
     return (
@@ -16,12 +16,12 @@ export function LandingHero() {
                     PERSHOP
                 </div>
                 <div className="flex items-center gap-4">
-                    <Link href="/login">
+                    <Link href="/auth/login">
                         <Button variant="ghost" className="text-muted-foreground hover:text-[#D4AF37] hover:bg-transparent text-sm font-medium tracking-wide">
                             CONNEXION
                         </Button>
                     </Link>
-                    <Link href="/analysis/step1">
+                    <Link href="/auth/signup">
                         <Button className="bg-[#D4AF37] text-white hover:bg-[#b5952f] rounded-full px-6 text-xs font-bold tracking-widest shadow-md transition-all hover:scale-105">
                             INSCRIPTION
                         </Button>

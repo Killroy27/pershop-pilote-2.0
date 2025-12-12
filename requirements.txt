@@ -6,3 +6,7 @@ langchain-core
 langchain-openai
 langchain-anthropic
 langchain-groq
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+email-validator

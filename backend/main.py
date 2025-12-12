@@ -6,6 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.agents.mirror_agent.emotional_analyzer import MirrorAgent
 from backend.agents.context_genius.context_analyzer import ContextGeniusAgent
 from backend.agents.harmony_orchestrator.matching_engine import HarmonyEngine
+from backend.auth.router import router as auth_router
 
 # --- 1. CONFIGURATION ---
 app = FastAPI(title="Pershop Pilote API", version="2.0")
@@ -18,6 +19,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include auth router
+app.include_router(auth_router)
 
 # --- 2. MODÈLES DE DONNÉES (Ce que le frontend doit envoyer) ---
 class ClientRequest(BaseModel):
